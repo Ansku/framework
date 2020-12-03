@@ -24,8 +24,6 @@ import com.vaadin.ui.MenuBar.MenuItem;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
-import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
-
 /**
  * @author Vaadin Ltd
  *

@@ -136,7 +136,7 @@ public class DefaultDeploymentConfiguration
         }
         if (pkgName == null) {
             pkgName = "";
-        } else {
+        } else if (!pkgName.isEmpty()) {
             pkgName += '.';
         }
         val = System.getProperty(pkgName + parameterName);
